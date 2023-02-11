@@ -1,7 +1,11 @@
-h1,h2,h3,h4,p,li{
-    font-family: sans-serif;
-    color: #444;
+*{
+    
 }
+body{
+    color: #444;
+    font-family: sans-serif;
+}
+ 
 h1,h2,h3{
     color: #1098ad;
 }
@@ -58,9 +62,7 @@ aside{
     background-color: #f7f7f7;
     border: 5px solid #1098ad;
 }
-body{
-    /* background-color: ; */
-}
+
 /* .first-li{
     font-weight: bold;
 } */
@@ -109,4 +111,10 @@ a:active{
 
 footer p{
     color: green;
+}
+/* a:link{
+    font-size: 22px;
+} */
+nav{
+    font-size: 18px;
 }

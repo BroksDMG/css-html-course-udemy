@@ -1,0 +1,50 @@
+*{
+    font-family:sans-serif ;
+}
+body{
+    border: 5px solid black;
+}
+.product-title{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    text-transform: uppercase;
+}
+.shipping{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+article p {
+    font-size: 18;
+}
+.price{
+    font-size: 28px;
+}
+a:link{
+    color: #1098ad;
+}
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    color: #1098ad;
+}
+.details-title{
+    text-transform: uppercase;
+}
+.details-list{
+    font-size: 18px;
+    list-style:square;
+}
+.add-cart{
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+.add-cart:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
