@@ -21,13 +21,14 @@ article p {
     font-size: 28px;
 }
 a:link{
-    color: #1098ad;
+    color: blue;
 }
 a:hover{
     text-decoration: none;
 }
 a:visited{
-    color: #1098ad;
+    color: blue;
+    /* color: #1098ad; */
 }
 .details-title{
     text-transform: uppercase;
