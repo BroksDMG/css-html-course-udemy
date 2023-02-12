@@ -18,7 +18,21 @@ body{
     text-transform: uppercase;
     height: 50px;
     line-height: 50px;
+    position: relative;
     
+}
+.product-title::after{
+    content: 'SALE';
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: -40px;
+    top: -15px;
+    height: 30px;
+    width: 70px;
+    line-height: 30px;
+    letter-spacing: 2px;
 }
 .shipping{
     font-size: 12px;
@@ -75,3 +89,32 @@ li{
     margin-bottom: 10px;
 
 }
+
+.black,.blue,.red,.yellow,.green,.brown{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.black{
+    background-color: black;
+
+}
+.blue{
+    background-color:blue ;
+}
+.red{
+    background-color:red ;
+}
+.yellow{
+    background-color:yellow ;
+}
+.green{
+    background-color:green ;
+}
+.brown{
+    background-color: rgb(124, 85, 51);
+}
+
+
